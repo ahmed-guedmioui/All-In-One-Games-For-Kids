@@ -1,0 +1,218 @@
+{
+  
+  "onesignal_id": "xxxxxxx",
+  
+  
+ 
+  "show_tips": true,
+  "show_fake_call": true,
+  
+  "show_videos_btn": true,
+  
+  "show_quiz": true,
+  "show_spin": true,
+  "show_puzzle": true,
+  
+  
+  
+  "fore_user_to_collect_coins_to_start": false,
+  
+  "fore_user_to_rate_app": false,
+  
+  "rating_exit_popup": false,
+  
+  
+  "clicks": 2,
+
+  "infos": [
+	{
+	 "image": "https://ntvb.tmsimg.com/assets/p18027171_b_h8_aa.jpg?w=960&h=540",
+	 "title": "How To Play This Run Game",
+	 "text": "Welcome to Run Forrest Run, the official game of Forrest Gump! Enjoy endless running in this amazing adventure. Have fun on the run, dashing and beating every level with Forrest Gump in this great runner game!",
+	 "text_two": "Run as Forrest Gump through the levels, collecting coins and dashing in the jungle, enjoy playing this game as the star of an award-winning Paramount Pictures film!",
+
+	 "isLocked": false,
+	 "id": 1,
+	 
+	 "likes": 2648,
+	 
+	 "isWebUI": false,
+	 "web_url": "xxxx",
+	 "isWeb": false
+
+	},
+	{
+	 "image": "https://outrightgames.com/wp-content/uploads/2020/07/Paw-Patrol-Mighty-Pups-Save-the-Bay-Feature-Image.png",
+	 "title": "Play Now!",
+	 "text": "xxxx",
+	 "text_two": "xxxx",
+
+	 "isLocked": false,
+	 "id": 2,
+	 
+	 "likes": 5067,
+	 
+	 "isWebUI": true,
+	 "web_url": "https://html5.gamedistribution.com/1a78f9d4787b4443953a304385e6da69/?",
+	 "isWeb": true
+	 
+	},
+	{
+	 "image": "https://deadline.com/wp-content/uploads/2020/02/paw-patrol-2.png?w=1024",
+	 "title": "Some Hakes For This Run Game",
+	 "text": "This is so much text This is so much text This is so much text This is so much text This is so much text This is so much text This is so much text This is so much text This is so much text This is so much text",
+	 "text_two": "- Easy to play, dash, run, jump and collect coins while running: Swipe up to jump, have fun and escape from obstacles. Press down to slide under hurdles. Dash left or right to turn your endless runner. Fly with a hang glider and collect the coins in the air in this endless running game.",
+
+	 "isLocked": true,
+	 "id": 3,
+	 
+	 "likes": 4016,
+
+	 "isWebUI": false,
+	 "web_url": "xxxx",
+	 "isWeb": false
+	 
+	},
+	{
+	"image": "https://tvline.com/wp-content/uploads/2020/07/paw-patrol-not-cancelled.jpg?w=620&h=420&crop=1",
+	 "title": "Endless runner features:",
+	 "text": "- Easy to play, dash, run, jump and collect coins while running:",
+	 "text_two": "Swipe up to jump, have fun and escape from obstacles. Press down to slide under hurdles. Dash left or right to turn your endless runner. Fly with a hang glider and collect the coins in the air in this endless running game.",
+
+	 "isLocked": false,
+	 "id": 4,
+	 
+	 "likes": 3271,
+
+	 "isWebUI": false,
+	 "web_url": "xxxx",
+	 "isWeb": false
+	 
+	},
+	{
+	"image": "https://p325k7wa.twic.pics/high/paw-patrol/paw-patrol-on-the-roll/00-page-setup/paw-patrol-otr_game-thumbnail.jpg?twic=v1/resize=760/step=10/quality=80",
+	 "title": "Unlimited Running",
+	 "text": "Run unlimited in the jungle of Vietnam. Dash fast, rush to overcome levels, unlock new scenarios and characters. Try running as fast as possible in this endless running adventure game without wifi (offline game).",
+	 "text_two": "While running, get boosters & power ups to run unlimited time in all the scenarios and have a lot of fun. A wild race is waiting: run, jump and dodge! rush and dash through a fusion of arcade and action game, enjoy some casual fun for everyone and running games.",
+
+	 "isLocked": true,
+	 "id": 5,
+	 
+	 "likes": 5300,
+
+	 "isWebUI": false,
+	 "web_url": "xxxx",
+	 "isWeb": false
+	 
+	},
+	{
+	"image": "https://i.ytimg.com/vi/LRMTr2VZcr8/maxresdefault.jpg",
+	 "title": "Easy To Play",
+	 "text": "Swipe up to jump, have fun and escape from obstacles. Press down to slide under hurdles. Dash left or right to turn your endless runner.",
+	 "text_two": "Fly with a hang glider and collect the coins in the air in this endless running game.",
+
+	 "isLocked": false,
+	 "id": 6,
+	 
+	 "likes": 1308,
+
+	 "isWebUI": false,
+	 "web_url": "xxxx",
+	 "isWeb": false
+	 
+	}
+	] ,
+	
+	"quizes": [
+	{
+		
+	 "question": "how many pyramides are in egypte?",
+      
+	 "answer_1": "Three pyramides",
+	 "answer_2": "four pyramides",
+	 "answer_3": "five pyramides",
+	 
+	 "correct": 1
+      
+	},
+	{
+	  
+	 "question": "What is Choo Choo Charles?",
+      
+	 "answer_1": "Spider Train",
+	 "answer_2": "Spider Man",
+	 "answer_3": "Spider Car",
+	 
+
+	 "correct": 1
+      
+	},
+	{
+	  
+	 "question": "What is 1X Bet",
+      
+	 "answer_1": "A dating app",
+	 "answer_2": "A betting app",
+	 "answer_3": "A cooking app",
+	 
+
+	 "correct": 2
+      
+	},
+	{
+	  
+	 "question": "Which one doesn't belong to Poppy Playtime?",
+      
+	 "answer_1": "Huggy Wuggy",
+	 "answer_2": "Kissy Missy",
+	 "answer_3": "The Man From The Window",
+	 
+
+	 "correct": 3
+      
+	},
+	{
+	  
+	 "question": "How many USLs does Real Madrid have?",
+      
+	 "answer_1": "13 Champions Leage",
+	 "answer_2": "12 Champions Leage",
+	 "answer_3": "14 Champions Leage",
+	 
+
+	 "correct": 3
+      
+	},
+	{
+	 
+	 "question": "Which one is a programming language?",
+     
+	 "answer_1": "English",
+	 "answer_2": "Kotlin",
+	 "answer_3": "Arabic",
+	 
+	 "correct": 2
+      
+	}
+  ]  ,
+	
+	
+	"videos": [
+	{
+	 "youtube_video_id": "H-S_bT_r9Wg",
+	 "image_cover": "https://i.ytimg.com/vi/LRMTr2VZcr8/maxresdefault.jpg"
+	},
+	{
+	 "youtube_video_id": "QvKNr5PoYxw",
+	 "image_cover": "https://p325k7wa.twic.pics/high/paw-patrol/paw-patrol-on-the-roll/00-page-setup/paw-patrol-otr_game-thumbnail.jpg?twic=v1/resize=760/step=10/quality=80"
+	},
+	{
+	 "youtube_video_id": "f3KYZTgw-HA",
+	 "image_cover": "https://tvline.com/wp-content/uploads/2020/07/paw-patrol-not-cancelled.jpg?w=620&h=420&crop=1"
+	},
+	{
+	 "youtube_video_id": "_odwT14rPnQ",
+	 "image_cover": "https://deadline.com/wp-content/uploads/2020/02/paw-patrol-2.png?w=1024"
+	}
+  ]  
+}

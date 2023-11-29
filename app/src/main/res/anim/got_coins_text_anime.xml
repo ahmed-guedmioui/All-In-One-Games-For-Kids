@@ -1,0 +1,24 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Scale up animation -->
+    <scale
+        android:duration="100"
+        android:fromXScale="0.3"
+        android:fromYScale="0.3"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="10"
+        android:toXScale="1.5"
+        android:toYScale="1.5" />
+
+    <scale
+        android:duration="100"
+        android:fromXScale="1.6"
+        android:fromYScale="1.6"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="5"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+
+</set>

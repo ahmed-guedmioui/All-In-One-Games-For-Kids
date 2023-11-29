@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context="com.ahmedapps.walkthrough.ui.QuizUI">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@android:color/transparent"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/app_background_top"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/big_texts_font"
+                android:text="@string/quiz_game"
+                android:textColor="@color/textColor"
+                android:textSize="28sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/coinsBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:visibility="gone">
+
+                <include layout="@layout/include_coins" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/target"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:visibility="gone"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="35dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/scoreProgressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/progressbar_circle_shape"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/progressbar_circular"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/scoreTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/big_texts_font"
+                    android:shadowColor="#8B000000"
+                    android:shadowDx="1.7"
+                    android:shadowDy="1.7"
+                    android:shadowRadius="1.6"
+                    android:textColor="@color/textColor"
+                    android:textSize="22sp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/scoreTxtDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/app_font"
+                android:gravity="center"
+                android:shadowColor="#8B000000"
+                android:shadowDx="1.7"
+                android:shadowDy="1.7"
+                android:shadowRadius="1.6"
+                android:textColor="@color/textColor"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/questionHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/dashed_stroke_alpha_quiz_ui"
+                android:padding="2dp">
+
+                <RelativeLayout
+                    android:id="@+id/questionBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/quiz_question_and_answer_bg">
+
+                    <TextView
+                        android:id="@+id/question"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="35dp"
+                        android:fontFamily="@font/app_font"
+                        android:gravity="center"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:shadowColor="#8B000000"
+                        android:shadowDx="1.7"
+                        android:shadowDy="1.7"
+                        android:shadowRadius="1.6"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/currentQ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/app_font"
+                    android:textColor="@color/textColor"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/totalQ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/app_font"
+                    android:textColor="@color/textColor"
+                    android:textSize="19sp" />
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/questionsProgress"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:progressBackgroundTint="@color/white"
+                android:progressTint="@color/accentColor_2" />
+
+            <RelativeLayout
+                android:id="@+id/answer1Holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/dashed_stroke_alpha_quiz_ui"
+                android:padding="2dp">
+
+
+                <RelativeLayout
+                    android:id="@+id/answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/quiz_question_and_answer_bg">
+
+                    <TextView
+                        android:id="@+id/answer1TXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/app_font"
+                        android:gravity="center"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:shadowColor="#8B000000"
+                        android:shadowDx="1.7"
+                        android:shadowDy="1.7"
+                        android:shadowRadius="1.6"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/answer2Holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/dashed_stroke_alpha_quiz_ui"
+                android:padding="2dp">
+
+                <RelativeLayout
+                    android:id="@+id/answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/quiz_question_and_answer_bg">
+
+
+                    <TextView
+                        android:id="@+id/answer2TXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/app_font"
+                        android:gravity="center"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:shadowColor="#8B000000"
+                        android:shadowDx="1.7"
+                        android:shadowDy="1.7"
+                        android:shadowRadius="1.6"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/answer3Holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/dashed_stroke_alpha_quiz_ui"
+                android:padding="2dp">
+
+                <RelativeLayout
+                    android:id="@+id/answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/quiz_question_and_answer_bg">
+
+                    <TextView
+                        android:id="@+id/answer3TXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/app_font"
+                        android:gravity="center"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp"
+                        android:shadowColor="#8B000000"
+                        android:shadowDx="1.7"
+                        android:shadowDy="1.7"
+                        android:shadowRadius="1.6"
+                        android:textAllCaps="true"
+                        android:textColor="@color/textColor"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/native_ad_temp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:visibility="gone"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:alpha="0.6"
+                android:background="@drawable/stroke_native_temp"
+                android:padding="3dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/app_font"
+                    android:text="@string/ad_view"
+                    android:textColor="@color/textColor"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp">
+
+                <include layout="@layout/include_quiz_btn" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:visibility="gone">
+
+
+
+        <RelativeLayout
+            android:id="@+id/bannerAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/include_got_coins_to_animate_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp">
+
+        <include layout="@layout/include_won_coins_to_animate" />
+    </RelativeLayout>
+
+
+    <include layout="@layout/include_rain_coins" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

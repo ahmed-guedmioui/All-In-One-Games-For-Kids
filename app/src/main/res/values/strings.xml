@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">All In One Games For Kids</string>
+    <string name="main_text">Hi Kid!</string>
+
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="connect_msg">Connect to the internet to continue.</string>
+    <string name="try_again">Try again</string>
+    <string name="start">START</string>
+    <string name="update">update app</string>
+    <string name="share">Share app</string>
+    <string name="rate_text">Please rate our app with 5 stars</string>
+    <string name="ad_view">Ads</string>
+    <string name="watch_ad">You need to watch an ad to unlock</string>
+    <string name="ad_is_not_available">No ad is available at the moment,\nPlease try again later.</string>
+    <string name="watch_the_entire_ad">You need to watch the entire ad to get coins.</string>
+    <string name="watch">Watch</string>
+    <string name="watch_capital">WATCH</string>
+    <string name="ad">Ad</string>
+    <string name="click_here">Click Here</string>
+    <string name="next">NEXT</string>
+    <string name="play">PLAY</string>
+    <string name="more_apps">More Apps</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="incoming_video_call">Video Call..</string>
+    <string name="video_call">Video Call</string>
+    <string name="online">Online</string>
+    <string name="coming_call">Incoming Call..</string>
+    <string name="loading_ads">Loading Ads</string>
+    <string name="likes">Likes</string>
+    <string name="play_again">Play Again</string>
+    <string name="check_score">Check Score</string>
+    <string name="spin">SPIN</string>
+    <string name="or">OR</string>
+    <string name="watch_ad_capital">WATCH AD</string>
+    <string name="to_collect_coins">TO COLLECT COINS</string>
+    <string name="webViewButtonText">PLAY</string>
+    <string name="install">INSTALL</string>
+    <string name="select_your_gender">Select Your Gender 🧑‍🤝‍🧑</string>
+    <string name="select_your_age">Select Your Age</string>
+    <string name="welcome">Welcome</string>
+    <string name="girl">Girl</string>
+    <string name="boy">Boy</string>
+    <string name="continue_">CONTINUE</string>
+    <string name="spinning_wheel">Spinning Wheel</string>
+    <string name="quiz_game">Quiz Game</string>
+    <string name="jigsaw_puzzle">Jigsaw Puzzle</string>
+    <string name="chat">chat</string>
+    <string name="about">About Paw Patrol</string>
+    <string name="videos">Videos</string>
+    <string name="calls">CALL AND CHAT</string>
+    <string name="phone_call">Phone Call</string>
+    <string name="musicOn">Music On</string>
+    <string name="musicOff">Music Off</string>
+    <string name="old">+13</string>
+    <string name="young">-13</string>
+
+
+    <!--CHAT-->
+    <string name="Chat_name">Paw Patrol Pup</string>
+    <string name="NumberPhone">+512602209895478</string>
+
+    <!--15 QUESTION-->
+    <string name="send_msg1_text">Hi.. ! &#129303;</string>
+    <string name="send_msg2_text">How are you &#128513;?</string>
+    <string name="send_msg3_text">What your name? &#128513; &#128522;</string>
+    <string name="send_msg4_text">How old are you &#128522; ?</string>
+    <string name="send_msg5_text">Nice to meet you </string>
+    <string name="send_msg6_text">Where are you from?</string>
+    <string name="send_msg7_text">What kind of food you like &#128523;?</string>
+    <string name="send_msg8_text">Tell me a joke</string>
+    <string name="send_msg9_text">I love You So much</string>
+    <string name="send_msg10_text">Do you Like this Application? &#128580;</string>
+    <string name="send_msg11_text">Im a Big fan of you &#128519; &#128519;</string>
+    <string name="send_msg12_text">What your favorite game?? &#128584;</string>
+    <string name="send_msg13_text">I will Call you now &#129300;? &#129331;</string>
+    <string name="send_msg14_text">See you GoodBye</string>
+    <string name="send_msg15_text">Happy Time</string>
+
+    <!--15 ANSWER-->
+    <string name="receive_msg1_text">Hi! Welcome to my chat</string>
+    <string name="receive_msg2_text">Im Good thank you</string>
+    <string name="receive_msg3_text">I am Paw Patrol Pup</string>
+    <string name="receive_msg4_text">Im 5 years old</string>
+    <string name="receive_msg5_text">mee to Friend</string>
+    <string name="receive_msg6_text">I am from a America</string>
+    <string name="receive_msg7_text">i love Pizza LOOL Yum! Yum! </string>
+    <string name="receive_msg8_text">let me think about joke emmm </string>
+    <string name="receive_msg9_text">ohh thank you me too, I love you!</string>
+    <string name="receive_msg10_text">Yes i love this app plz give me 5 stars and comment &#128525; &#128525; :
+        <u>"http://play.google.com/store/apps/details?id=XXXXXX"</u></string>
+    <string name="receive_msg11_text">Really ? Thank you sooooo much &#128571;</string>
+    <string name="receive_msg12_text">My favorite game is Paw Patrol Game!</string>
+    <string name="receive_msg13_text">Yes Yes Yes of course </string>
+    <string name="receive_msg14_text">See you again</string>
+    <string name="receive_msg15_text">Thank Your for this chat I see you and to repeat this conversation! </string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="second_check">I confirm that I\'m 13 years old and above.</string>
+    <string name="first_check">I agree</string>
+    <string name="click_for_privacy">By Clicking the button below. You are agree to above Terms of Use and Privacy Policy.</string>
+    <string name="agree_and_start">Agree And Start</string>
+    <string name="privacy">We take your privacy seriously. Please read the following information about our privacy.\n\n- Data Collection:\nWe collect only the necessary information required to provide you with our services.\n\n- Data Usage:\nWe use the collected data to improve our app and provide a personalized experience for our users.\n\n- Changes to This Privacy Policy:\nWe may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.\n\n- Children’s Privacy:\nThese Services do not address anyone under the age of 13. This app is designed to serve user that are 13 years old and above. If you check the box below you confirm that you are 13 years old and above.
+    </string>
+    <string name="spin_the_wheel">Spin The Wheel</string>
+
+
+</resources>

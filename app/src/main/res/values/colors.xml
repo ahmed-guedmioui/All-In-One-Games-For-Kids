@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#D6E1E6</color>
+
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_test_background_color_2">#00A3A3A3</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_white">#FFFFFF</color>
+    <color name="gnt_red">#FF0000</color>
+    <color name="gnt_green">#00FF00</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_ad_green">#3A6728</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_outline">#E0E0E0</color>
+
+
+
+
+    <color name="start_btn_bcg">#FAC334</color>
+    <color name="videos_btn_bcg">#F89A5C</color>
+
+    <color name="quiz_btn_bcg">#F64BB0</color>
+    <color name="spin_btn_bcg">#3BD120</color>
+    <color name="puzzle_btn_bcg">#B958FF</color>
+
+
+    <color name="v_call_btn_bcg">#F89A5C</color>
+    <color name="ph_call_btn_bcg">#3BD120</color>
+    <color name="chat_btn_bcg">#B958FF</color>
+
+
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColor_2">#101010</color>
+    <color name="BackgroundColor">#F6F6F6</color>
+    <color name="accentColor">#3388c2</color>
+    <color name="accentColor_2">#FAC334</color>
+    <color name="accentColor_3">#3881BA</color>
+    <color name="imageBG">#F5BE31</color>
+    <color name="navigationBarColor">#1F537A</color>
+    <color name="buttonsColor">#23C526</color>
+    <color name="questionAndAnswerInQuizColor">#A63176AC</color>
+    <color name="selectedAnswerInQuizColor">#D2F8A55C</color>
+
+
+
+    <color name="maleButtonColor">#F4BE2F</color>
+    <color name="femaleButtonColor">#FB30A8</color>
+    <color name="plus13">#F6BF33</color>
+    <color name="less13">#22C124</color>
+    <color name="webRowTextColor">#58B1FF</color>
+    <color name="webRowBackground">#D7212325</color>
+    <color name="puzzle_image_bcg">#0B0E22</color>
+    <color name="addCoinsStart">#D6A11B</color>
+    <color name="addCoinsEnd">#FAC336</color>
+    <color name="gold">#F3BD31</color>
+    <color name="chatSend">#429DED</color>
+    <color name="chatReceive">#2BD52E</color>
+    <color name="lightGrey">#A6A6A6</color>
+
+</resources>

@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/app_background_top" />
+
+        <ImageView
+            android:id="@+id/img_caller"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/icon" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bannerContainer"
+        android:layout_below="@id/top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/app_font_2"
+            android:gravity="center"
+            android:text="@string/Chat_name"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:gravity="center"
+            android:text="@string/NumberPhone"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/add_call"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/call_ic_add_call" />
+
+            <ImageView
+                android:id="@+id/add_vib"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/call_ic_extra_volume" />
+
+            <ImageView
+                android:id="@+id/send_app"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/call_ic_bluetooth" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/speaker"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/call_ic_speaker" />
+
+            <ImageView
+                android:id="@+id/keypod"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/call_ic_keyboard" />
+
+            <ImageView
+                android:id="@+id/muet"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:src="@drawable/call_ic_mute" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/finish_call"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/call_ic_refuse_call" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:visibility="gone">
+
+
+
+        <RelativeLayout
+            android:id="@+id/bannerAd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

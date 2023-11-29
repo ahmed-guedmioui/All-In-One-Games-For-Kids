@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardBackgroundColor="@color/BackgroundColor"
+    app:cardCornerRadius="@dimen/radius_dialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:alpha="0.3"
+        android:background="@drawable/dashed_stroke_dark"
+        android:orientation="vertical" />
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_close" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/user_coins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/app_font"
+                android:gravity="center"
+                android:shadowColor="#8B000000"
+                android:shadowDx="1.4"
+                android:shadowDy="1.4"
+                android:shadowRadius="1.6"
+                android:textAllCaps="true"
+                android:textColor="@color/gold"
+                android:textSize="35sp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="coin.json"
+                app:lottie_loop="true" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/watch_ad_to_get_coins_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/big_texts_font"
+                android:gravity="center"
+                android:shadowColor="#8B000000"
+                android:shadowDx="1.4"
+                android:shadowDy="1.4"
+                android:shadowRadius="1.6"
+                android:textAllCaps="true"
+                android:textColor="@color/accentColor_3"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/watchAdForCoinsBTN"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            app:cardBackgroundColor="@color/accentColor_2"
+            app:cardCornerRadius="@dimen/radius_2"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/dashed_stroke_alpha">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/big_texts_font"
+                    android:shadowColor="#8B000000"
+                    android:shadowDx="1.4"
+                    android:shadowDy="1.4"
+                    android:shadowRadius="1.6"
+                    android:text="@string/watch_capital"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_coin_with_shadow" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:id="@+id/progressCoins"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="200dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35dp"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/showScoreHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dashed_stroke_alpha_quiz_ui"
+        android:padding="2dp"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/showScore"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/accentColor_2"
+            app:cardCornerRadius="@dimen/radius_2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/app_font"
+                android:gravity="center"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:shadowColor="#8B000000"
+                android:shadowDx="1.7"
+                android:shadowDy="1.7"
+                android:shadowRadius="1.6"
+                android:text="@string/check_score"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/playAgainHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dashed_stroke_alpha_quiz_ui"
+        android:padding="2dp"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/playAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/accentColor_2"
+            app:cardCornerRadius="@dimen/radius_2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/app_font"
+                android:gravity="center"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:shadowColor="#8B000000"
+                android:shadowDx="1.7"
+                android:shadowDy="1.7"
+                android:shadowRadius="1.6"
+                android:text="@string/play_again"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/nextHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/dashed_stroke_alpha_quiz_ui"
+        android:padding="2dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/accentColor_2"
+            app:cardCornerRadius="@dimen/radius_2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/app_font"
+                android:gravity="center"
+                android:paddingStart="45dp"
+                android:paddingEnd="45dp"
+                android:shadowColor="#8B000000"
+                android:shadowDx="1.7"
+                android:shadowDy="1.7"
+                android:shadowRadius="1.6"
+                android:text="@string/next"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</LinearLayout>

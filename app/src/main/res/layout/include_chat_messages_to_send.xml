@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/color_group"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+
+    <FrameLayout
+        android:id="@+id/Frame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/mesg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg1_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:onClick="buttonClicked"
+            android:text="@string/send_msg2_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg3_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg4_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg5_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg6_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg7_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg8_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg9_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg10_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg11_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg12_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg13_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Frame14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg14_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/Frame15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip">
+
+        <Button
+            android:id="@+id/mesg15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/app_font_2"
+            android:backgroundTint="@color/accentColor"
+            android:text="@string/send_msg15_text"
+            android:textColor="@color/textColor" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginBottom="0.0dip">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/StartChatAgain"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/buttonsColor">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:src="@drawable/ic_restart"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+</LinearLayout>

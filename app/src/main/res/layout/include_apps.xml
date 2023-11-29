@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/app_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appIcon_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/icon_1"
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/holder1"
+            android:layout_width="0dp"
+            app:layout_constraintStart_toEndOf="@id/appIcon_1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/install_1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/appTitle_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/app_name"
+                tools:ignore="RtlSymmetry"
+                android:lines="1"
+                android:fontFamily="@font/app_font_2"
+                android:textStyle="bold"
+                android:textColor="@color/textColor_2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/appDesc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/app_font_2"
+                android:layout_marginStart="10dp"
+                android:paddingEnd="5dp"
+                android:lines="2"
+                android:textColor="@color/textColor_2"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_stars"
+            app:layout_constraintStart_toEndOf="@id/appIcon_1"
+            app:layout_constraintTop_toBottomOf="@id/holder1" />
+
+        <Button
+            android:id="@+id/install_1"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/app_font_2"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#41B313"
+            android:textStyle="bold"
+            android:text="@string/install"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/app_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appIcon_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/icon_2"
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/holder2"
+            android:layout_width="0dp"
+            app:layout_constraintStart_toEndOf="@id/appIcon_2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/install_2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/appTitle_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/app_font_2"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry"
+                android:lines="1"
+                android:textColor="@color/textColor_2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/appDesc_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/app_font_2"
+                android:layout_marginStart="10dp"
+                android:paddingEnd="5dp"
+                android:lines="2"
+                android:textColor="@color/textColor_2"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_stars"
+            app:layout_constraintStart_toEndOf="@id/appIcon_2"
+            app:layout_constraintTop_toBottomOf="@id/holder2" />
+
+        <Button
+            android:id="@+id/install_2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#41B313"
+            android:fontFamily="@font/app_font_2"
+            android:textStyle="bold"
+            android:text="@string/install"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/app_3"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appIcon_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/icon_3"
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/holder3"
+            android:layout_width="0dp"
+            app:layout_constraintStart_toEndOf="@id/appIcon_3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/install_3"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/appTitle_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="5dp"
+                android:fontFamily="@font/app_font_2"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                tools:ignore="RtlSymmetry"
+                android:lines="1"
+                android:textColor="@color/textColor_2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/appDesc_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:paddingEnd="5dp"
+                android:lines="2"
+                android:fontFamily="@font/app_font_2"
+                android:textColor="@color/textColor_2"
+                android:textSize="13sp"
+                tools:ignore="RtlSymmetry" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_stars"
+            app:layout_constraintStart_toEndOf="@id/appIcon_3"
+            app:layout_constraintTop_toBottomOf="@id/holder3" />
+
+        <Button
+            android:id="@+id/install_3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#41B313"
+            android:textStyle="bold"
+            android:text="@string/install"
+            android:fontFamily="@font/app_font_2"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
